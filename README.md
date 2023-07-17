@@ -13,8 +13,8 @@ The player's actions in the game involve:
 The game manager (represented by the `time_limit_guessing_game()` function) handles the game's logic and flow, generates the target number, starts the timer, and determines the game's outcome based on the player's input and the time limit.
 
 As the code is designed to be a simple text-based guessing game, it doesn't involve any complex player roles or interactions beyond the player trying to guess the correct number within the time limit. The player's role is to enjoy the challenge of guessing the number while being under the constraint of the time limit.
-### About code
-Sure! Let's go through each term in the code and explain its purpose:
+### About code:
+Let's go through each term in the code and explain its purpose:
 
 1. `random.randint(1, 100)`: This function call is used in the `generate_random_number()` function to generate a random integer between 1 and 100 (inclusive). The `random` module provides this functionality.
 
@@ -41,3 +41,9 @@ Sure! Let's go through each term in the code and explain its purpose:
 12. The `if __name__ == "__main__":` block is used to ensure that the `time_limit_guessing_game()` function is called only when the script is run directly and not when it's imported as a module.
 
 Overall, this code creates a simple text-based number guessing game with a time limit of 10 seconds. The player needs to guess the target number within this time frame, and the game provides hints to help them make accurate guesses.
+#### Libraries:
+In the Time Limit Guessing Game implemented in the given code, two Python libraries are used:
+
+1. **random:** The `random` library is imported to generate a random number between 1 and 100 for the player to guess. The function `generate_random_number()` uses `random.randint(1, 100)` to obtain a random integer within the specified range.
+
+2. **time:** The `time` library is imported to measure the elapsed time during the game and enforce the 10-second time limit. The function `time.time()` is used to retrieve the current time in seconds since the epoch, and it helps track the time for the game.
