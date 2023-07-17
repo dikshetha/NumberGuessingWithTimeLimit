@@ -1,5 +1,6 @@
 # Number-Guessing-With-TimeLimit
-RulesIn the Time Limit Guessing Game implemented in the given code, there is one main role for the player:
+#b Rules
+In the Time Limit Guessing Game implemented in the given code, there is one main role for the player:
 
 1. **Player:** The role of the player is to interact with the game through the terminal (command-line interface). The player needs to guess the target number within the time limit of 10 seconds.
 
